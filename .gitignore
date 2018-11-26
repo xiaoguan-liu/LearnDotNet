@@ -3,3 +3,6 @@
 ################################################################################
 
 /LearnProject/.vs
+/LearnProject/packages
+/LearnProject/WebApiTest1/bin
+/LearnProject/WebApiTest1/obj/Debug
