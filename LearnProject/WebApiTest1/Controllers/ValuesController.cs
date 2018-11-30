@@ -10,12 +10,14 @@ namespace WebApiTest1.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        [Authorize]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
+        [Authorize]
         public string Get(int id)
         {
             return "value";
